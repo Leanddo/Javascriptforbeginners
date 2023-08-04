@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(149, 68, 255);
+            color: white;
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Iniciando estudos Dom</h1>
+    <p>Aqui sai o resultado</p>
+    <div id='msg'>clique em min</div>
+
+    <script>//alt+shift+f alinha o codigo
+        var p1 = window.document.getElementsByTagName('p')[0]
+        var d = window.document.getElementById('msg')
+        document.write('Está escrito assim: '+ p1.innerText)
+        p1.style.color='blue'
+        d.style.background='green'
+
+    </script>
+</body>
+
+</html>
